@@ -76,6 +76,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 MyMessage();
                 messageEt.setText("");
+                try {
+                    //set time in mili
+                    Thread.sleep(1000);
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
                 dataChanged();
             }
         });

@@ -31,7 +31,8 @@
             <EditText
                 android:id="@+id/phone_number_editor_et"
                 android:hint="Enter Phone No. with +91"
-                style="@style/EditorFieldStyle" />
+                style="@style/EditorFieldStyle"
+                android:inputType="phone"/>
 
 
 
